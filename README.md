@@ -33,8 +33,7 @@ Kelompok T15
 ### Deskripsi Soal
 Sebutkan webserver yang digunakan pada "ichimarumaru.tech"! 
 
-### Melakukan
-
+### Pembahasan
 Proses enkripsi untuk AtoZ dilakukan dengan cara yaitu pertama, full path dari direktori yang akan di enkripsi akan di cek per char dari belakang, apabila char yang sedang dicek merupakan '/' akan di break. Untuk menghandle apabila file memiliki ekstensi, apabila terdapat '.' maka str_length akan diubah menjadi `i`, sehingga yang ter enkrip hanya nama file dan tanpa ekstensi.
 
 <img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
@@ -47,6 +46,7 @@ Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi denga
 
 ### Deskripsi Soal
 Temukan paket dari web-web yang menggunakan basic authentication method!
+
 ### Pembahasan 
 Lorem Ipsum lorem ipsum
 
