@@ -110,7 +110,7 @@ Cari username dan password ketika melakukan login ke FTP Server!
 1. Untuk menemukan username dan password ketika melakukan login ke FTP server dari file 6-7.pcap, dilakukan display filter dengan line filter `ftp.request.command==USER||ftp.request.command==PASS`
 2. Didapat paket-paket dengan info menjelaskan `Request: USER secretuser` dan `Request: PASS aku.pengen.pw.aja`
 
-<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+<img width="500" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%206.png">
 
 Dapat disimpulkan bahwa username: secretuser dan password: aku.pengen.pw.aja
 
