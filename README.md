@@ -204,11 +204,20 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
 ### Pembahasan 
-Lorem Ipsum lorem ipsum
+1. Untuk dapat mendapatkan paket yang mengandung port 21 maka dapat dilakukan display filter pada halaman awal wireshark dengan filter line `port 21` dengan pilihan localhost adapter for loopback traffic capture
 
-<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%2011.png">
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/File%20Nomor%2012.png">
 
-Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+2. Melakukan aktivasi xampp, menggunakan filezilla untuk mengkases port 21 dan melakukan transfer file untuk mentrigger packet diterima pada wireshark
+
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/File%20Nomor%2012%20(2).png">
+
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/File%20Nomor%2012%20(3).png">
+
+3. Memeriksa apakah packet sudah ditangkap oleh wireshark
+
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/File%20Nomor%2012%20(4).png">
+
 
 ---
 ## Soal 13
