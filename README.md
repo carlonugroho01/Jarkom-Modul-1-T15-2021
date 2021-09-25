@@ -217,11 +217,12 @@ Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi denga
 Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 
 ### Pembahasan 
-Lorem Ipsum lorem ipsum
+1. Untuk mendapat paket-paket yang tujuannya ke port 443, dibantu dengan membuka web monta.if.its.ac.id pada halaman incognito
+2. Melakukan display filter pada halaman awal wireshark dengan line `dst port 443`
 
-<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%2013.png">
 
-Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%2013%20(2).png">
 
 ---
 ## Soal 14
@@ -230,11 +231,11 @@ Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi denga
 Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
 
 ### Pembahasan 
-Lorem Ipsum lorem ipsum
+1. Untuk mendapat paket-paket yang tujuannya ke kemenag.go.id dapat melakukan display filter pada halaman awal wireshark dengan line `dst host kemenag.go.id`
 
-<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%2014.png">
 
-Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%2014%20(2).png">
 
 ---
 ## Soal 15
