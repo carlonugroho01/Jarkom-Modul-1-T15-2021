@@ -81,11 +81,9 @@ Dapat disimpulkan bahwa username: kuncimenujulautan dan password: tQKEJFbgNGC1NC
 Temukan paket mysql yang mengandung perintah query select!
 
 ### Pembahasan 
-Lorem Ipsum lorem ipsum
+Untuk melakukan paket mysql yang mengandung perintah query select dilakukan dengan display filter `mysql contains SELECT || mysql contains select`
 
-<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
-
-Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%204.png">
 
 ---
 ## Soal 5
@@ -94,11 +92,9 @@ Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi denga
 Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
 
 ### Pembahasan 
-Lorem Ipsum lorem ipsum
+Melakukan display filter `mysql contains INSERT || mysql contains insert`
 
-<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
-
-Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+<img width="500" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Screenshot%20(686).png">
 
 ---
 ## Soal 6
@@ -206,7 +202,7 @@ Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 ### Pembahasan 
 1. Untuk dapat mendapatkan paket yang mengandung port 21 maka dapat dilakukan display filter pada halaman awal wireshark dengan filter line `port 21` dengan pilihan localhost adapter for loopback traffic capture
 
-<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/File%20Nomor%2012.png">
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%2012%20Rev.png">
 
 2. Melakukan aktivasi xampp, menggunakan filezilla untuk mengkases port 21 dan melakukan transfer file untuk mentrigger packet diterima pada wireshark
 
