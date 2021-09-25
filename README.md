@@ -244,14 +244,12 @@ Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
 ### Pembahasan 
-Lorem Ipsum lorem ipsum
+1. Untuk mendapat paket-paket yang tujuannya berasal dr ip sendiri, dapat melakukan pencarian ip address sendiri dahulu menggunakan command prompt, didapat IP address adalah 10.100.7.121
+2. Melakukan display filter pada halaman awal wireshark dengan line `src host 10.100.7.121`
 
-<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%2015.png">
 
-Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%2015%20(2).png">
 
 ## Kendala
-- Soal 1 : Belum berhasil membuat log khusus untuk enkripsi-dekripsi AtoZ
-- Soal 2 : Belum berhasil membuat fungsi vigenere ketika dilakukan rename serta membagi file ke dalam file-file kecil berukuran 1024mb
-- Soal 3 : Belum dapat memahamai soal
-- Soal 4 : -
+Tidak terdapat kendala yang berarti dalam pengerjaan dan revisi di praktikum Jaringan Komunikasi modul 1 ini
