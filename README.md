@@ -37,7 +37,7 @@ Sebutkan webserver yang digunakan pada "ichimarumaru.tech"!
 1. Pertama-tama dalam menyelesaikan soal dilakukan filtering display dengan line filter `http.host contains "testing.mekanis.me"`
 2. Muncul beberapa paket dan didapati pada paket paling bawah, pada bagian Hypertext Transfer Protocol `nginx/1.18.0 (Ubuntu)`
 
-<img width="500" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Screenshot%20(652).png">
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Screenshot%20(652).png">
 
 Dapat disimpulkan bahwa webserver yang berkomunikasi menggunakan protokol HTTP didapati adalah nginx
 
