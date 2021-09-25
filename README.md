@@ -175,10 +175,14 @@ Dapat diduga bahwa password dari file rahasia yang ada di "secret.zip" ada dalam
 
 3. Dilakukan display filter dengan line `ftp-data` kemudian mencari file yang berkaitan dengan bukanapaapa.txt
 
-
 <img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%2010%20(2).png">
 
 Ditemukan pada bagian Line-based text data bahwa password adalah d1b1langbukanapaapajugagapercaya
+
+
+4. Menggunakan password yang didapat untuk membuka file "wanted.pdf" yang terdapat dalam "secret.zip"
+
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%2010%20(3).png">
 
 ---
 ## Soal 11
@@ -187,11 +191,11 @@ Ditemukan pada bagian Line-based text data bahwa password adalah d1b1langbukanap
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! 
 
 ### Pembahasan 
-Lorem Ipsum lorem ipsum
+1. Untuk menemukan paket-paket yang berasal dari port 80 maka dilakukan display filter pada halaman awal wireshark dengan line filter `src port 80`
 
-<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+<img width="900" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
 
-Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%2011%20(2).png">
 
 ---
 ## Soal 12
@@ -202,7 +206,7 @@ Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 ### Pembahasan 
 Lorem Ipsum lorem ipsum
 
-<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%2011.png">
 
 Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
 
