@@ -51,7 +51,7 @@ Temukan paket dari web-web yang menggunakan basic authentication method!
 1. Dalam menyelesaikan soal untuk menemukan paket-paket yang menggunakan basic authentication method dilakukan display filtering dengan line filter `http.authbasic`
 2. Akan muncul paket-paket yang menggunakan basic authentication method
 
-<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+<img width="500" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%202.png">
 
 Dapat disimpulkan bahwa paket-paket yang menggunakan basic authentication method adalah paket dengan nomor: 568, 573, dan 2066.
 
@@ -66,9 +66,13 @@ Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan
 2. Akan keluar beberapa packet, mencoba packet-packet yang memiliki keterangan method GET
 3. Didapati pada bagian authorization sebagai berikut 'kuncimenujulautan:tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN'
 
-<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+<img width="500" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%203.png">
 
 Dapat disimpulkan bahwa username: kuncimenujulautan dan password: tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN
+
+4. Mengisi pertanyaan yang terdapat pada web yang sudah berhasil diakses
+
+<img width="500" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%203(2).png">
 
 ---
 ## Soal 4
