@@ -193,7 +193,7 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 ### Pembahasan 
 1. Untuk menemukan paket-paket yang berasal dari port 80 maka dilakukan display filter pada halaman awal wireshark dengan line filter `src port 80`
 
-<img width="900" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%2011.png">
 
 <img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%2011%20(2).png">
 
