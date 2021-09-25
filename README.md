@@ -1,1 +1,230 @@
-# Jarkom-Modul-1-T15-2021
+# PRAKTIKUM 1 JARINGAN KOMUNIKASI - T15
+
+Penyelesaian Soal Praktikum 1 Jaringan Komunikasi 2021\
+Kelompok T15
+  * Romandhika Rijal Ibrahim (05311840000048)
+  * Muhammad Yasykur Rafii (05311940000017)
+  * Stefanus Lionel Carlo Nugroho (05311940000027)
+
+---
+
+## Table of Contents
+
+* [Soal 1](#soal-1)
+* [Soal 2](#soal-2)
+* [Soal 3](#soal-3)
+* [Soal 4](#soal-4)
+* [Soal 5](#soal-5)
+* [Soal 6](#soal-6)
+* [Soal 7](#soal-7)
+* [Soal 8](#soal-8)
+* [Soal 9](#soal-9)
+* [Soal 10](#soal-10)
+* [Soal 11](#soal-11)
+* [Soal 12](#soal-12)
+* [Soal 13](#soal-13)
+* [Soal 14](#soal-14)
+* [Soal 15](#soal-15)
+* [Kendala](#kendala)
+
+---
+## Soal 1
+
+### Deskripsi Soal
+Sebutkan webserver yang digunakan pada "ichimarumaru.tech"! 
+
+### Melakukan
+
+Proses enkripsi untuk AtoZ dilakukan dengan cara yaitu pertama, full path dari direktori yang akan di enkripsi akan di cek per char dari belakang, apabila char yang sedang dicek merupakan '/' akan di break. Untuk menghandle apabila file memiliki ekstensi, apabila terdapat '.' maka str_length akan diubah menjadi `i`, sehingga yang ter enkrip hanya nama file dan tanpa ekstensi.
+
+<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+
+Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+
+
+---
+## Soal 2
+
+### Deskripsi Soal
+Temukan paket dari web-web yang menggunakan basic authentication method!
+### Pembahasan 
+Lorem Ipsum lorem ipsum
+
+<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+
+Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+
+---
+## Soal 3
+
+### Deskripsi Soal
+Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
+
+### Pembahasan 
+Lorem Ipsum lorem ipsum
+
+<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+
+Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+
+---
+## Soal 4
+
+### Deskripsi Soal
+Temukan paket mysql yang mengandung perintah query select!
+
+### Pembahasan 
+Lorem Ipsum lorem ipsum
+
+<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+
+Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+
+---
+## Soal 5
+
+### Deskripsi Soal
+Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
+
+### Pembahasan 
+Lorem Ipsum lorem ipsum
+
+<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+
+Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+
+---
+## Soal 6
+
+### Deskripsi Soal
+Cari username dan password ketika melakukan login ke FTP Server!
+
+### Pembahasan 
+Lorem Ipsum lorem ipsum
+
+<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+
+Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+
+---
+## Soal 7
+
+### Deskripsi Soal
+Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
+
+### Pembahasan 
+Lorem Ipsum lorem ipsum
+
+<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+
+Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+
+---
+## Soal 8
+
+### Deskripsi Soal
+Cari paket yang menunjukan pengambilan file dari FTP tersebut!
+
+### Pembahasan 
+Lorem Ipsum lorem ipsum
+
+<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+
+Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+
+---
+## Soal 9
+
+### Deskripsi Soal
+Dari paket-paket yang menuju FTP terdapat indikasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
+
+### Pembahasan 
+Lorem Ipsum lorem ipsum
+
+<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+
+Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+
+---
+## Soal 10
+
+### Deskripsi Soal
+Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
+
+### Pembahasan 
+Lorem Ipsum lorem ipsum
+
+<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+
+Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+
+---
+## Soal 11
+
+### Deskripsi Soal
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! 
+
+### Pembahasan 
+Lorem Ipsum lorem ipsum
+
+<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+
+Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+
+---
+## Soal 12
+
+### Deskripsi Soal
+Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+
+### Pembahasan 
+Lorem Ipsum lorem ipsum
+
+<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+
+Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+
+---
+## Soal 13
+
+### Deskripsi Soal
+Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+
+### Pembahasan 
+Lorem Ipsum lorem ipsum
+
+<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+
+Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+
+---
+## Soal 14
+
+### Deskripsi Soal
+Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
+
+### Pembahasan 
+Lorem Ipsum lorem ipsum
+
+<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+
+Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+
+---
+## Soal 15
+
+### Deskripsi Soal
+Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+### Pembahasan 
+Lorem Ipsum lorem ipsum
+
+<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+
+Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+
+## Kendala
+- Soal 1 : Belum berhasil membuat log khusus untuk enkripsi-dekripsi AtoZ
+- Soal 2 : Belum berhasil membuat fungsi vigenere ketika dilakukan rename serta membagi file ke dalam file-file kecil berukuran 1024mb
+- Soal 3 : Belum dapat memahamai soal
+- Soal 4 : -
