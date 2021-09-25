@@ -110,7 +110,7 @@ Cari username dan password ketika melakukan login ke FTP Server!
 1. Untuk menemukan username dan password ketika melakukan login ke FTP server dari file 6-7.pcap, dilakukan display filter dengan line filter `ftp.request.command==USER||ftp.request.command==PASS`
 2. Didapat paket-paket dengan info menjelaskan `Request: USER secretuser` dan `Request: PASS aku.pengen.pw.aja`
 
-<img width="500" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%206.png">
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%206.png">
 
 Dapat disimpulkan bahwa username: secretuser dan password: aku.pengen.pw.aja
 
@@ -122,10 +122,13 @@ Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..
 
 ### Pembahasan 
 1. Untuk menemukan file pdf dari file-file zip yang ada dilakukan filtering displya dengan line filter `frame contains "Real.pdf`
+
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%207.png">
+
 2. Muncul 2 packet, dilakukan download dengan follow -> TCP Stream -> show data as RAW -> save as 201.zip
 3. Buka zip yang sudah didownload dan didapati file real.pdf dalam zip tersebut, maka akan muncul gambar sebagai berikut
 
-<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%207%20(2).png">
 
 ---
 ## Soal 8
@@ -134,11 +137,11 @@ Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..
 Cari paket yang menunjukan pengambilan file dari FTP tersebut!
 
 ### Pembahasan 
-Lorem Ipsum lorem ipsum
+1. Untuk mencari paket yang menunjukkan pengambilan file dari FTP maka dilakukan display filter dari file 8-15.pcap dengan line filter `frame contains "RETR"`
 
-<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%208.png">
 
-Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+Dapat disimpulkan bahwa tidak ada paket yang menunjukan pengambilan file dari FTP dari file 8-15.pcap
 
 ---
 ## Soal 9
@@ -147,11 +150,14 @@ Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi denga
 Dari paket-paket yang menuju FTP terdapat indikasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
 
 ### Pembahasan 
-Lorem Ipsum lorem ipsum
+1. Untuk dapat menemukan file berisi data dengan nama "secret.zip" dari file 8-15.pcap dilakukan display filter dengan line filter `frame contains "secret.zip"`
+2. Muncul Packet dengan info secret.zip, melakukan download file tersebut dengan melakukan klik kanan -> follow -> TCP Stream -> ASCII view -> save as secret.zip
 
-<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%209.png">
 
-Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+3. Membuka file secret.zip yang sudah didownload kemudian muncul kolom untuk memasukkan password sebagai berikut
+
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%209(2).png">
 
 ---
 ## Soal 10
@@ -160,11 +166,19 @@ Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi denga
 Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
 
 ### Pembahasan 
-Lorem Ipsum lorem ipsum
+1. Untuk dapat menemukan file dengan nama "history.txt" yang berisikan password untuk membuka file rahasia yang ada di "secret.zip" dilakukan display filter dengan line `frame contains"history.txt"`
+2. Kemudian klik kanan -> follow -> TCP Stream dan muncul sebagai berikut
 
-<img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%2010.png">
 
-Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+Dapat diduga bahwa password dari file rahasia yang ada di "secret.zip" ada dalam file bukanapaapa.txt
+
+3. Dilakukan display filter dengan line `ftp-data` kemudian mencari file yang berkaitan dengan bukanapaapa.txt
+
+
+<img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Soal%20Nomor%2010%20(2).png">
+
+Ditemukan pada bagian Line-based text data bahwa password adalah d1b1langbukanapaapajugagapercaya
 
 ---
 ## Soal 11
