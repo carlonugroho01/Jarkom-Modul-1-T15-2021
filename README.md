@@ -39,7 +39,7 @@ Sebutkan webserver yang digunakan pada "ichimarumaru.tech"!
 
 <img width="900" alt="mkdir" src="https://github.com/carlonugroho01/Jarkom-Modul-1-T15-2021/blob/main/images/Screenshot%20(652).png">
 
-Dapat disimpulkan bahwa webserver yang berkomunikasi menggunakan protokol HTTP didapati adalah nginx
+Dapat disimpulkan bahwa webserver yang berkomunikasi menggunakan protokol HTTP didapati adalah nginx.
 
 ---
 ## Soal 2
@@ -48,11 +48,12 @@ Dapat disimpulkan bahwa webserver yang berkomunikasi menggunakan protokol HTTP d
 Temukan paket dari web-web yang menggunakan basic authentication method!
 
 ### Pembahasan 
-Lorem Ipsum lorem ipsum
+1. Dalam menyelesaikan soal untuk menemukan paket-paket yang menggunakan basic authentication method dilakukan display filtering dengan line filter `http.authbasic`
+2. Akan muncul paket-paket yang menggunakan basic authentication method
 
 <img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
 
-Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+Dapat disimpulkan bahwa paket-paket yang menggunakan basic authentication method adalah paket dengan nomor: 568, 573, dan 2066.
 
 ---
 ## Soal 3
@@ -61,11 +62,13 @@ Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi denga
 Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
 
 ### Pembahasan 
-Lorem Ipsum lorem ipsum
+1. Untuk mendapatkan username dan password dilakukan display filtering dari file 1-5.pcap dengan line filter `http.host=http.host==basic.ichimarumaru.tech`
+2. Akan keluar beberapa packet, mencoba packet-packet yang memiliki keterangan method GET
+3. Didapati pada bagian authorization sebagai berikut 'kuncimenujulautan:tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN'
 
 <img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
 
-Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+Dapat disimpulkan bahwa username: kuncimenujulautan dan password: tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN
 
 ---
 ## Soal 4
@@ -100,11 +103,12 @@ Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi denga
 Cari username dan password ketika melakukan login ke FTP Server!
 
 ### Pembahasan 
-Lorem Ipsum lorem ipsum
+1. Untuk menemukan username dan password ketika melakukan login ke FTP server dari file 6-7.pcap, dilakukan display filter dengan line filter `ftp.request.command==USER||ftp.request.command==PASS`
+2. Didapat paket-paket dengan info menjelaskan `Request: USER secretuser` dan `Request: PASS aku.pengen.pw.aja`
 
 <img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
 
-Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
+Dapat disimpulkan bahwa username: secretuser dan password: aku.pengen.pw.aja
 
 ---
 ## Soal 7
@@ -113,11 +117,11 @@ Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi denga
 Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
 
 ### Pembahasan 
-Lorem Ipsum lorem ipsum
+1. Untuk menemukan file pdf dari file-file zip yang ada dilakukan filtering displya dengan line filter `frame contains "Real.pdf`
+2. Muncul 2 packet, dilakukan download dengan follow -> TCP Stream -> show data as RAW -> save as 201.zip
+3. Buka zip yang sudah didownload dan didapati file real.pdf dalam zip tersebut, maka akan muncul gambar sebagai berikut
 
 <img width="500" alt="mkdir" src="https://user-images.githubusercontent.com/57980125/121776710-9b9b4f80-cbb8-11eb-8997-4276a9a2263d.png">
-
-Kemudian dilakukan pemetaan tiap-tiap karakter sebagai hasil dari enkripsi dengan loop.
 
 ---
 ## Soal 8
